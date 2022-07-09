@@ -1,0 +1,36 @@
+@charset "UTF-8"; 
+
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+
+    background-color: rgb(11, 14, 11);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:10% ;
+}
+
+
+.loading{
+    margin:auto;
+    border-radius: 50%;
+    border-bottom:5px solid #ff0040 ;
+    width: 64px;
+    height: 64px;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+
+
